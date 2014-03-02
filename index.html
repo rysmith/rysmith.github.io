@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="./css/stylesheet.css" rel="stylesheet">
@@ -41,10 +42,11 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="friends.html">Friends</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="index.html"><i title="home" class="fa fa-home fa-fw"></i></a></li> 
+            <li><a href="about.html"><i title="about" class="fa fa-info-circle"></i></a></li>
+            <li><a href="brewing.html"><i title="brewing" class="fa fa-beer"></i></a></li>
+            <li><a href="friends.html"><i title="friends" class="fa fa-users"></i></a></li>
+            <li><a href="contact.html"><i title="contact" class="fa fa-phone"></i></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,10 +55,12 @@
     <div class="container">
 
       <div class="basic">
-        <h1>Hello, I'm (another) Ryan Smith.</h1>
-        <h1>There are <a href="https://duckduckgo.com/?q=Ryan+Smith">many of us</a>.</h1>
-        <h1>Welcome to my website.</h1>
-        <h1>Click one of the above links for more info.</h1>
+         <ul class="nav nav-pils nav-horizontal">
+          <li><a href="about.html"><h1><i class="fa fa-info-circle fa-fw"></i> About</h1></a></li>
+          <li><a href="brewing.html"><h1><i class="fa fa-beer fa-fw"></i> Brewing</h1></a></li>
+          <li><a href="friends.html"><h1><i class="fa fa-users fa-fw"></i> Friends</h1></a></li>
+          <li><a href="contact.html"><h1><i class="fa fa-phone fa-fw"></i> Contact</h1></a></li>
+        </ul>
       </div>
 
     </div><!-- /.container -->
