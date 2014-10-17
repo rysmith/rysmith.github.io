@@ -1,9 +1,12 @@
 body {
   padding: 50px;
 }
-.basic{
+.basic {
   padding: 40px 5px;
   text-align: left;
 }
 
-
+.basic-center {
+  text-align: center;
+  padding: 40px 5px;
+}
