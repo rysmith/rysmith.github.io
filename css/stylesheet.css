@@ -5,7 +5,6 @@
 
 .basic {
   padding: 40px;
-  margin-top: 30px;
   text-align: left;
   background-color:#FFFFFF;
   border-radius: 8px;
@@ -15,11 +14,14 @@
 .basic-center {
   text-align: center;
   padding: 40px 5px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .basic-center a {
-  color:#000000;
+  color:#ffffff;
+  font-weight: lighter;
+  font-size: 70px;
+  letter-spacing: 15px;
 }
 
 footer {
