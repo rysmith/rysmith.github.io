@@ -4,6 +4,7 @@
 }
 
 .white-bg {
+  margin-top:40px;
   padding-top:20px;
   background:#fff;
   padding-left:50px;
@@ -17,7 +18,7 @@
   color:#ffffff;
   font-weight: 100;
   font-size: 70px;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
 }
 
 
